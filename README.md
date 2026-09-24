@@ -1,6 +1,8 @@
 # manure-spotter (manure-on-snow detection)
 GEE + Python workflow for Random Forest–based manure-on-snow detection from Sentinel-2 and Landsat 8/9, exporting map-ready outputs.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aaronksuiter/manure-spotter-releases/blob/main/manure_spotter_public.ipynb)
+
 This repository contains a Google Earth Engine (GEE) + Python workflow (Colab/Jupyter) that trains and applies a Random Forest classifier to detect potential manure-on-snow signals, on croplands, using Sentinel-2 and Landsat 8/9 imagery. The workflow generates vector detections suitable for mapping and (optionally) exports image chips for rapid human review.
 
 ## Requirements
